@@ -19,3 +19,6 @@ To run a test in parallel:
  Allows to wait for all goroutines to complete at the same time
  #### sync.Once
  Allows to run the function only once
+ ___
+ ### [**Panics**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/lesson_Testing/sample_test.go)
+An example of how can manage and handle panics using recover()
