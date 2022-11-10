@@ -1,7 +1,8 @@
 # Go Learning Jam Session
 Exploring the basics 
 ---------
-### [**Tests**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/lesson_Testing/sample_test.go)
+### Tests
+#### [**default testing package**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/Tests/Testing/sample_test.go)
 To run a specific test from a set of tests, you can use the command:
 ```javascript 
 go test -v -run TestMultiple/simple
@@ -10,15 +11,72 @@ To run a test in parallel:
 ```javascript 
  t.Parallel()  
  ``` 
+ #### [**Go Convey**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/Tests/GoConvey/convey_test.go) 
+ First acquaintance. [**View full feature tour**](http://goconvey.co/)
+ 
  ___
- ### [**Synchronization primitives**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/lesson_Testing/sample_test.go)
- #### sync.Mutex/RWMutex
+ ### Synchronization primitives
+ #### [**sync.Mutex/RWMutex**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/SyncPrimitives/Mutex/main.go)
  When should it be used?
  Lock/Unlock when sure that the code of the critical section changes the guarded data, otherwise (does not change) use RWMutex
- #### sync.WaitGroup
+ #### [**sync.WaitGroup**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/SyncPrimitives/WaitGroup/main.go)
  Allows to wait for all goroutines to complete at the same time
- #### sync.Once
+ #### [**sync.Once**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/SyncPrimitives/Once/main.go)
  Allows to run the function only once
  ___
- ### [**Panics**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/lesson_Testing/sample_test.go)
-An example of how can manage and handle panics using recover()
+ ### Panics
+An [**example**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/Panics/main.go) of how can manage and handle panics using recover()
+
+___
+ ### Reading/Writing Files
+Introduction to *io/ioutil* and os packages
+
+___
+### Shell Commands
+The **top** (table of processes) command shows a real-time view of running processes in macOS/Linux and displays kernel-managed tasks. The command also provides a system information summary that shows resource utilization, including CPU and memory usage
+
+___
+### Context
+Package context defines the Context type, which carries *deadlines*, cancellation signals, and other request-scoped values across API boundaries and between processes.
+
+___
+### JSON
+#### default json package
+Practice in json.Marshal/Unmarshal
+#### GJSON
+Practice in GJSON package
+Quick overview of the path syntax :
+
+```json
+{
+  "name": {"first": "Tom", "last": "Anderson"},
+  "age":37,
+  "children": ["Sara","Alex","Jack"],
+  "fav.movie": "Fear and Loathing in Las Vegas",
+  "friends": [
+    {"first": "Dale", "last": "Murphy", "age": 44, "nets": ["ig", "fb", "tw"]},
+    {"first": "Roger", "last": "Craig", "age": 68, "nets": ["fb", "tw"]},
+    {"first": "Jane", "last": "Murphy", "age": 47, "nets": ["ig", "tw"]}
+  ]
+}
+```
+```
+"name.last"          >> "Anderson"
+"age"                >> 37
+"children"           >> ["Sara","Alex","Jack"]
+"children.#"         >> 3
+"children.1"         >> "Alex"
+"child*.2"           >> "Jack"
+"c?ildren.0"         >> "Sara"
+"fav\.movie"         >> "Fear and Loathing in Las Vegas"
+"friends.#.first"    >> ["Dale","Roger","Jane"]
+"friends.1.last"     >> "Craig"
+```
+
+View full feature tour (https://github.com/tidwall/gjson)
+
+#### SJSON
+Practice in SJSON package
+
+View full feature tour (https://github.com/tidwall/sjson)
+
