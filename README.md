@@ -29,22 +29,23 @@ An [**example**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master
 
 ___
  ### Reading/Writing Files
-Introduction to *io/ioutil* and os packages
+Introduction to [**io/ioutil**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/IO/main.go) and os packages
 
 ___
 ### Shell Commands
-The **top** (table of processes) command shows a real-time view of running processes in macOS/Linux and displays kernel-managed tasks. The command also provides a system information summary that shows resource utilization, including CPU and memory usage
+The [**top (table of processes) command**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/Shell/main.go) shows a real-time view of running processes in macOS/Linux and displays kernel-managed tasks. The command also provides a system information summary that shows resource utilization, including CPU and memory usage
 
 ___
 ### Context
-Package context defines the Context type, which carries *deadlines*, cancellation signals, and other request-scoped values across API boundaries and between processes.
+Package context defines the Context type, which carries [**deadlines**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/Context/main.go), cancellation signals, and other request-scoped values across API boundaries and between processes.
 
 ___
 ### JSON
-#### default json package
+#### [**default json package**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/JSON/DefaultJson/main.go)
 Practice in json.Marshal/Unmarshal
-#### GJSON
+#### [**GJSON**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/JSON/GJSON/main.go)
 Practice in GJSON package
+
 Quick overview of the path syntax :
 
 ```json
@@ -73,10 +74,10 @@ Quick overview of the path syntax :
 "friends.1.last"     >> "Craig"
 ```
 
-View full feature tour (https://github.com/tidwall/gjson)
+[**View full feature tour**](https://github.com/tidwall/gjson)
 
-#### SJSON
+#### [**SJSON**](https://github.com/faringet/Go_Learning_Jam_Session/tree/master/JSON/SJSON)
 Practice in SJSON package
 
-View full feature tour (https://github.com/tidwall/sjson)
+[**View full feature tour**](https://github.com/tidwall/sjson)
 
