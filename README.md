@@ -1,4 +1,30 @@
 # Go Learning Jam Session
+### [Exploring the basics](https://github.com/faringet/Go_Learning_Jam_Session/edit/master/README.md#exploring-the-basics-1)
+
+* [Tests](https://github.com/faringet/Go_Learning_Jam_Session#tests)
+  * [default testing package](https://github.com/faringet/Go_Learning_Jam_Session#default-testing-package)
+  * [Go Convey](https://github.com/faringet/Go_Learning_Jam_Session#go-convey)
+* [Synchronization primitives](https://github.com/faringet/Go_Learning_Jam_Session#synchronization-primitives)
+  * [sync.Mutex/RWMutex](https://github.com/faringet/Go_Learning_Jam_Session#syncmutexrwmutex)
+  * [sync.WaitGroup](https://github.com/faringet/Go_Learning_Jam_Session#syncwaitgroup)
+  * [sync.Once](https://github.com/faringet/Go_Learning_Jam_Session#synconce)
+* [Panics](https://github.com/faringet/Go_Learning_Jam_Session#panics)
+* [Reading/Writing Files](https://github.com/faringet/Go_Learning_Jam_Session#readingwriting-files)
+* [Shell Commands](https://github.com/faringet/Go_Learning_Jam_Session#shell-commands)
+* [Context](https://github.com/faringet/Go_Learning_Jam_Session#context)
+* [JSON](https://github.com/faringet/Go_Learning_Jam_Session#json)
+  * [default json package](https://github.com/faringet/Go_Learning_Jam_Session#default-json-package)
+  * [GJSON](https://github.com/faringet/Go_Learning_Jam_Session#gjson)
+  * [SJSON](https://github.com/faringet/Go_Learning_Jam_Session#sjson)
+
+### [Design patterns](https://github.com/faringet/Go_Learning_Jam_Session#design-patterns)
+
+* [Strategy pattern](https://github.com/faringet/Go_Learning_Jam_Session#strategy-pattern)
+* [Builder pattern](https://github.com/faringet/Go_Learning_Jam_Session#builder-pattern)
+
+
+
+___
 Exploring the basics 
 ---------
 ### Tests
