@@ -20,7 +20,7 @@
 ### [Design patterns](https://github.com/faringet/Go_Learning_Jam_Session#design-patterns)
 
 * [Strategy pattern](https://github.com/faringet/Go_Learning_Jam_Session#strategy-pattern)
-* [Builder pattern](https://github.com/faringet/Go_Learning_Jam_Session#builder-pattern)
+* [Builder + Director pattern](https://github.com/faringet/Go_Learning_Jam_Session#builder--director-pattern)
 
 
 
