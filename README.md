@@ -116,7 +116,7 @@ is a behavioralgn pattern that enables selecting an algorithm at runtime. Inst
 Greate explanation from Israel Miles [**on Medum**](https://levelup.gitconnected.com/the-strategy-pattern-in-go-2072d2b9d6ae)
 
 ___
-### Builder pattern 
+### Builder + Director pattern 
 is a creational pattern designed to provide a flexible solution to various object creation problems in object-oriented programming. The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
 
 Greate explanation from josué Parra Rosales [**on Medum**](https://medium.com/@josueparra2892/builder-pattern-in-go-56605f9e7387)
