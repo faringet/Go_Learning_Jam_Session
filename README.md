@@ -81,3 +81,17 @@ Practice in SJSON package
 
 [**View full feature tour**](https://github.com/tidwall/sjson)
 
+___
+Design patterns
+---------
+### Strategy pattern
+is a behavioralgn pattern that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use.
+
+Greate explanation from Israel Miles [**on Medum**](https://levelup.gitconnected.com/the-strategy-pattern-in-go-2072d2b9d6ae)
+
+___
+### Builder pattern 
+is a creational pattern designed to provide a flexible solution to various object creation problems in object-oriented programming. The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
+
+Greate explanation from josué Parra Rosales [**on Medum**](https://medium.com/@josueparra2892/builder-pattern-in-go-56605f9e7387)
+
