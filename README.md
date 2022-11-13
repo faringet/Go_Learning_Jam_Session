@@ -110,13 +110,13 @@ Practice in SJSON package
 ___
 Design patterns
 ---------
-### Strategy pattern
+### [**Strategy pattern**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/DesignPatterns/Strategy/main.go)
 is a behavioralgn pattern that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use.
 
 Greate explanation from Israel Miles [**on Medum**](https://levelup.gitconnected.com/the-strategy-pattern-in-go-2072d2b9d6ae)
 
 ___
-### Builder + Director pattern 
+### [**Builder + Director pattern**](https://github.com/faringet/Go_Learning_Jam_Session/blob/master/DesignPatterns/Builder/main.go) 
 is a creational pattern designed to provide a flexible solution to various object creation problems in object-oriented programming. The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
 
 Greate explanation from josué Parra Rosales [**on Medum**](https://medium.com/@josueparra2892/builder-pattern-in-go-56605f9e7387)
